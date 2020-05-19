@@ -3,13 +3,14 @@
 using namespace std;
 
 
-int main(int arg, char** argv){
-    ifstream ifs;
+int main(int arg, char** argv)
+{
+    	ifstream ifs;
 	ifs.open(argv[1]);
 	try
 	{
 		int edge1, edge2, edge3;
-        ifs >> edge1 >> edge2 >> edge3;
+        	ifs >> edge1 >> edge2 >> edge3;
         
 		if (edge1 == edge2 && edge1 == edge3)
 			cout << "Equilateral triangle\n";
