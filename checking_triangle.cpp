@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int arg, char** argv)
 {
-    	ifstream ifs;
+    ifstream ifs;
 	ifs.open(argv[1]);
 	try
 	{
